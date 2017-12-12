@@ -7,4 +7,6 @@ find . -name "*.c" -o -name "*.cpp" -o -name "*.h" -o -name "*.java" > cscope.fi
 
 cscope -q -R -b -i cscope.files
 
-
+# to use cscope
+# just 
+#	cscope -d
